@@ -1,7 +1,5 @@
 <h1 align="center">13.52</h1>
-Host of RAWGAME's 11.00-13.52 Webkit exploit chain for launching the latest GoldHen through the console's web browser.
-
-Based on [SLOPKIT](https://github.com/jordyidk/slopkit) by Jordy, originally written for the PS5. [RAWGAME](https://github.com/rawgame4/rawgame4.github.io) ported it to PS4 and brought the lapse and poops kernel exploits onto it to cover firmware up to 13.52. 
+Host of the 11.00-13.52 Webkit exploit chain for launching the latest GoldHen through the console's web browser.
 
 ## Firmware support
 
@@ -16,6 +14,9 @@ The chain is selected automatically from the browser's User-Agent.
 | 12.50 | poops | Yes |
 | 12.52 | poops | Yes |
 | 13.00 | poops | Yes |
+| 13.02 | poops | No |
+| 13.50 | poops | No |
+| 13.52 | poops | No |
 
 ## Usage
 
@@ -55,6 +56,8 @@ firmware's patch blob from `patches/` (read back and byte-checked before it is
 enabled), then map and run `payload.bin`.
 
 ## Credits
+
+Based on [SLOPKIT](https://github.com/jordyidk/slopkit) by Jordy, originally written for the PS5. [RAWGAME](https://github.com/rawgame4/rawgame4.github.io) ported it to PS4 and brought the lapse and poops kernel exploits onto it to cover firmware up to 13.00. Patches from 13.02 Up to 13.52 from [WhiteShadow8500](https://github.com/WhiteShadow8500/WhiteShadow8500.github.io/tree/main)
 
 - **RawGame** - Exploit Port
 - **Jordy** — SLOPKIT, the PS5 webkit.
